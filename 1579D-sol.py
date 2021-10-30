@@ -1,10 +1,4 @@
 import heapq as hp
-def can_talk(array):
-    flag = 0
-    for i, item in enumerate(array):
-        if item > 0 :
-            flag += 1
-    return True if flag > 1 else False
 
 t = int(input())
 for i in range(t):
